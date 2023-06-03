@@ -1,0 +1,13 @@
+{
+  "name": "@arcanyx-pub/prettier-config",
+  "version": "1.0.0",
+  "description": "Standard 'Prettier' config for Arcanyx JS/TS projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcanyx-pub/prettier-config.git"
+  },
+  "author": "Joe Dahlqusit <joe@arcanyx.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/arcanyx-pub/prettier-config#readme"
+}
