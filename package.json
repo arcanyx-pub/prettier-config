@@ -1,5 +1,5 @@
 {
-  "name": "@arcanyx-pub/prettier-config",
+  "name": "@arcanyx/prettier-config",
   "version": "1.0.0",
   "description": "Standard 'Prettier' config for Arcanyx JS/TS projects",
   "main": "index.js",
