@@ -1,10 +1,17 @@
 module.exports = {
-    // `x => x` instead of `(x) => x`
-    arrowParens: "avoid",
-    // soft-limit of 100 chars per line
-    printWidth: 100,
-    // wrap long markdown lines
-    proseWrap: "always",
-    // indent with 4 spaces
-    tabWidth: 4,
+    arrowParens: "avoid",               // `x => x` instead of `(x) => x`
+    embeddedLanguageFormatting: "off",  // don't reformat Markdown code blocks
+    printWidth: 100,                    // soft-limit of 100 chars per line
+    proseWrap: "always",                // wrap long Markdown lines
+    tabWidth: 4,                        // indent with 4 spaces
+
+    overrides: [
+        {
+            // Use 2-space indentation for YAML and Markdown, because our bikes need sheds
+            files: ["*.yml", "*.yaml", "*.md"],
+            options: {
+                tabWidth: 2,
+            },
+        },
+    ],
 };
